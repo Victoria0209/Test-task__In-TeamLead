@@ -1,0 +1,556 @@
+html {
+    box-sizing: border-box;
+    font-size: 1.2vw;
+    /* font-size: 20px; */
+    width: 100%;
+    min-height: 320px;
+    margin: 0 auto;
+    background: linear-gradient(-15deg, #f3f38a, #77b3ce);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none !important;
+    border: none !important;
+}
+
+.wrap {
+    margin: 0 auto;
+    /* max-width: 1081px; */
+    max-width: 46rem;
+}
+
+/* 1 Блок. Промо */
+.about__prod {
+    background-color: #0d2562;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+.about__desc {
+    margin-top: 4.5rem;
+    width: 100vw;
+    position: absolute;
+}
+
+.about__name-prod {
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    max-width: 73rem;
+}
+
+.desc-img {
+    width: 15rem;
+}
+
+.desc-list {
+    font-size: 1.5rem;
+}
+
+.desc-list li {
+    margin-bottom: 3rem;
+}
+
+.button {
+    border: 1px solid grey;
+    border-radius: 1rem;
+    background-color: grey;
+    padding: 1rem;
+}
+
+.button-item {
+    width: 5.5rem;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #cbce31;
+    background-color: #cbce31;
+}
+
+.video {
+    top: 50%;
+    /* width: 1938px; */
+    width: 96.6rem;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    left: 50%;
+    z-index: 0;
+    position: absolute;
+}
+
+
+
+/* 2 Блок. Состав продукта*/
+.composition {
+    padding: 5rem 2rem 5rem;
+}
+
+.composition__conteiner {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.composition__img {
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    padding: 2.5rem;
+    width: 10rem;
+}
+
+.composition__img img {
+    width: 100%;
+}
+
+.img_apple {
+    width: 12.5rem;
+}
+
+.composition__prod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 19rem;
+}
+
+.composition__prod img {
+    width: 100%;
+}
+
+.button_link {
+    margin: 1.5rem;
+}
+
+.line {
+    border-top: 1px solid black;
+    width: 5rem;
+}
+
+.composition__line {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    row-gap: 13rem;
+    padding: 0 1rem 0 1rem;
+}
+
+.composition__line-one,
+.composition__line-six {
+    transform: rotate(10deg);
+}
+
+.composition__line-three,
+.composition__line-four {
+    transform: rotate(-10deg);
+}
+
+
+/* 3 Блок. Отзывы */
+.reviews {
+    padding-top: 7.5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+.head {
+    color: #0e438b;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* .column {
+    display: flex;
+    flex-direction: column;
+} */
+
+.events_headers {
+    z-index: 2;
+    margin-top: 6.5rem;
+}
+
+.headers_p__size {
+    font-size: 0.55rem;
+    color: #FFFFFF;
+    width: 27rem;
+    height: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.reviews__events {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.75rem;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-left: 4rem; */
+
+    /* margin-top: 2.5rem;
+    position: relative;
+    /* min-height: 40rem; */
+    /* overflow: hidden; */
+}
+
+.events {
+    /* width: 12rem;
+    height: 16.5rem; */
+    background: #97B13C;
+    border-radius: 0.5rem;
+}
+
+.wrap_event {
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+}
+
+.event_text {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* height: 50%; */
+}
+
+.events_block1,
+.events_block2,
+.events_block3 {
+    width: 10rem;
+    /* height: 14.25rem; */
+}
+
+.event1,
+.event2,
+.event3 {
+    /* height: 50%; */
+    border-radius: 0.35rem 0.35rem 0 0;
+}
+
+.event1_head,
+.event2_head,
+.event3_head {
+    font-size: 0.75rem;
+    color: #FFFFFF;
+    padding-bottom: .5rem;
+}
+
+.event1_blockquote,
+.event2_blockquote,
+.event3_blockquote {
+    font-size: 0.5rem;
+    color: #FFFFFF;
+    flex: 1;
+}
+
+/* 4 Блок. Промо */
+.promo {
+    padding-top: 7.5rem;
+    padding-bottom: 5rem;
+    background: linear-gradient(45deg, #eaeeba, #309dd0);
+}
+
+.promo__container {
+    display: flex;
+    align-items: center;
+}
+
+.promo__desc-list {
+    margin-top: 3.5rem;
+    text-align: center;
+}
+
+.promo__desc img {
+    width: 26rem;
+}
+
+.desc-item:last-child {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+/* 5 Блок. Форма заказа.*/
+
+.order {
+    padding-top: 7.5rem;
+    padding-bottom: 5rem;
+    background: linear-gradient(-15deg, #f9adf7, #abdaf0);
+}
+
+.order__time {
+    text-align: center;
+}
+
+.countdown-title {
+    color: #396;
+    font-weight: 100;
+    font-size: 2rem;
+    margin: 2rem 0px 1rem;
+}
+
+.countdown {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.countdown-number {
+    padding: 0.5rem;
+    border-radius: 0.15rem;
+    background: #00bf96;
+    display: inline-block;
+}
+
+.countdown-time {
+    padding: 0.75rem;
+    border-radius: 0.15rem;
+    background: #00816a;
+    display: inline-block;
+}
+
+.countdown-text {
+    display: block;
+    padding-top: 0.25rem;
+    font-size: 0.8rem;
+}
+
+.order__head {
+    font-size: 5rem;
+    color: #97B13C;
+    font-weight: bold;
+    text-align: center;
+}
+
+.order__prod {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.25rem;
+}
+
+.order__prod-img {
+    text-align: center;
+    width: 25rem;
+}
+
+.prod-img {
+    margin-bottom: 3.5rem;
+    width: 100%;
+}
+
+.old-price_p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #f12121;
+}
+
+.new-price_p {
+    font-size: 1.5rem;
+    color: #3fc709;
+}
+
+.new-price {
+    color: #3fc709;
+    animation-name: price;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes price {
+    0% {
+        color: rgb(0, 0, 255);
+        bottom: 0.5rem;
+    }
+
+    25% {
+        color: rgb(178, 205, 1);
+        left: 0;
+        bottom: 0px;
+    }
+
+    50% {
+        color: rgb(51, 255, 0);
+        left: 0;
+        bottom: 0.5rem;
+    }
+
+    75% {
+        color: rgb(83, 243, 15);
+        left: 0;
+        bottom: 0px;
+    }
+
+    75% {
+        color: rgb(73, 169, 32);
+        left: 0;
+        bottom: 0.5rem;
+        ;
+    }
+}
+
+.order__form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7.5rem;
+}
+
+.order__form p {
+    font-size: 1.5rem;
+    columns: rgb(114, 113, 113);
+    padding-bottom: 1rem;
+}
+
+.input {
+    margin-bottom: 1rem;
+    border: 0;
+    padding: 0.5rem;
+    border-bottom: 0.15rem solid #eee;
+    box-shadow: 0 0 0.75rem 0.2rem rgba(0, 0, 0, 0.41);
+    border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 1367px) {
+
+    html {
+        font-size: 1.6vw;
+    }
+
+    .owl-prev {
+        bottom: -3rem;
+        left: 20rem;
+    }
+
+    .owl-next {
+        bottom: -3rem;
+        left: 22.17rem;
+    }
+
+    .reviews__events {
+        /* margin-left: 8rem; */
+        /* background-color: red; */
+    }
+
+    .composition__img {
+
+        width: 7rem;
+    }
+
+    .promo__p {
+        padding-right: 8rem;
+    }
+
+    .order__prod-img {
+        width: 20rem;
+    }
+
+    .about__desc {
+        margin-top: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 821px) {
+
+    .about__desc {
+        margin-top: 25.5rem;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    html {
+        font-size: 2vw;
+    }
+
+    .about__prod {
+        background: url(https://denis-creative.com/wp-content/uploads/2018/01/about-bg.jpg) 0 top no-repeat #0e438b;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
+    .video {
+        display: none;
+    }
+
+
+    .composition__prod {
+        width: 11rem;
+    }
+
+    .about__desc {
+        margin-top: 15.5rem;
+    }
+
+    .button {
+        width: 9.5rem;
+        font-size: 2rem;
+    }
+    .promo__p {
+        padding-right: 0rem;
+        margin-left: 3rem;
+    }
+    .old-price_p {
+        font-size: 2.2rem;
+    }
+    .new-price_p {
+        font-size: 3.5rem;
+    }
+
+}
+
+@media screen and (max-width: 415px) {
+    html {
+        font-size: 2.5vw;
+    }
+
+    .about__desc {
+        margin-top: 14.5rem;
+    }
+
+    .container {
+        display: block;
+        padding-left: 8rem;
+    }
+
+    .desc-list {
+        padding-top: 7rem;
+    }
+
+    .composition__line,
+    .composition__column-two {
+        display: none;
+    }
+
+    .composition__conteiner {
+        display: block;
+        margin-left: 13rem;
+        margin-top: 4rem;
+    }
+
+    .promo__container {
+        display: block;
+        text-align: center;
+    }
+
+    .promo__p {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+
+    .promo__desc-list {
+        padding: 0 2rem;
+    }
+}

@@ -16,7 +16,6 @@ a {
 
 .wrap {
     margin: 0 auto;
-    /* max-width: 1081px; */
     max-width: 46rem;
 }
 
@@ -78,7 +77,6 @@ a {
 
 .video {
     top: 50%;
-    /* width: 1938px; */
     width: 96.6rem;
     transform: translate(-50%, -50%);
     opacity: 0.5;
@@ -86,8 +84,6 @@ a {
     z-index: 0;
     position: absolute;
 }
-
-
 
 /* 2 Блок. Состав продукта*/
 .composition {
@@ -156,7 +152,6 @@ a {
     transform: rotate(-10deg);
 }
 
-
 /* 3 Блок. Отзывы */
 .reviews {
     padding-top: 7.5rem;
@@ -171,11 +166,6 @@ a {
     font-weight: bold;
     text-align: center;
 }
-
-/* .column {
-    display: flex;
-    flex-direction: column;
-} */
 
 .events_headers {
     z-index: 2;
@@ -196,17 +186,9 @@ a {
     margin-top: 2.75rem;
     align-items: center;
     flex-wrap: wrap;
-    /* margin-left: 4rem; */
-
-    /* margin-top: 2.5rem;
-    position: relative;
-    /* min-height: 40rem; */
-    /* overflow: hidden; */
 }
 
 .events {
-    /* width: 12rem;
-    height: 16.5rem; */
     background: #97B13C;
     border-radius: 0.5rem;
 }
@@ -214,27 +196,23 @@ a {
 .wrap_event {
     display: flex;
     flex-direction: column;
-    /* height: 100%; */
 }
 
 .event_text {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    /* height: 50%; */
 }
 
 .events_block1,
 .events_block2,
 .events_block3 {
     width: 10rem;
-    /* height: 14.25rem; */
 }
 
 .event1,
 .event2,
 .event3 {
-    /* height: 50%; */
     border-radius: 0.35rem 0.35rem 0 0;
 }
 
@@ -281,7 +259,6 @@ a {
 }
 
 /* 5 Блок. Форма заказа.*/
-
 .order {
     padding-top: 7.5rem;
     padding-bottom: 5rem;
@@ -439,11 +416,6 @@ a {
         left: 22.17rem;
     }
 
-    .reviews__events {
-        /* margin-left: 8rem; */
-        /* background-color: red; */
-    }
-
     .composition__img {
 
         width: 7rem;
@@ -484,7 +456,6 @@ a {
     .video {
         display: none;
     }
-
 
     .composition__prod {
         width: 11rem;

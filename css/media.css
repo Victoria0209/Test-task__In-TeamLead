@@ -1,0 +1,140 @@
+@media screen and (max-width: 1340px) {
+    .composition__conteiner {
+        flex-wrap: wrap;
+    }
+
+    .composition__img {
+        width: 110px;
+    }
+
+    .composition__prod {
+        width: auto;
+    }
+
+    .composition__line {
+        row-gap: 210px;
+    }
+
+    .about__prod {
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width: 1071px) {
+    .composition__line {
+        display: none;
+    }
+
+    .composition__column-one {
+        margin-right: 22px;
+    }
+
+    .composition__column-one {
+        margin-right: 22px;
+    }
+
+    .composition__column-three {
+        margin-left: 22px;
+    }
+
+    .promo {
+        padding-top: 50px;
+    }
+
+    .promo__p {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 855px) {
+    .composition__column-one {
+        order: 0;
+    }
+
+    .composition__column-two {
+        order: 2;
+    }
+
+    .composition__column-three {
+        order: 1;
+    }
+
+    .composition__conteiner {
+        margin-top: 50px;
+    }
+
+    .promo__container {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .promo__desc-list {
+        text-align: inherit;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .button-item {
+        width: 70px;
+    }
+
+}
+
+@media screen and (max-width: 676px) {
+
+    .container {
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    .about__desc {
+        margin-top: 40px;
+    }
+
+    .desc-img {
+        width: 200px;
+    }
+
+    .about__prod {
+        height: 786px;
+    }
+
+    .desc-list {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+
+    .desc-list li {
+        margin-bottom: 30px;
+    }
+
+    .button-item {
+        width: 80px;
+    }
+
+    .about__prod {
+        height: 847px;
+    }
+
+    .order__prod-img {
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 519px) {
+    .composition__column-three {
+        margin-left: 0;
+    }
+
+    .composition__column-one {
+        margin-right: 0;
+    }
+
+    .promo__desc img {
+        width: 300px;
+    }
+}
